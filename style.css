@@ -1,0 +1,322 @@
+/* Navigation */
+.navlogo{
+    height: 25px;
+}
+
+.navbar-default {
+  background-color: #1c1c1c!important;;
+  border-color: #1c1c1c!important;;
+}
+
+
+.navbar-default .navbar-nav > li > a {
+    color: #00539B!important;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #007ce8!important;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #e80008!important;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    background-color: transparent!important;
+}
+
+/* About */
+.about {
+    width: 100%;
+    background-color: #FFFFFF;
+    padding: 50px 100px;
+}
+
+.about p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px; 
+    color: #000;
+    text-align: center;
+}
+
+.about h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px; 
+    color: #00539B;
+    text-align: center;
+}
+
+.about h5 {
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
+    color: #00539B;
+    text-align: center;
+}
+
+.about strong {
+    font-weight: 800;
+    color: #e80008;
+}
+
+/* Learn More */
+.learn-more {
+    padding: 30px;
+}
+.row #skills, .row #leadership, .row #experience, .row #networking {
+    display: table;
+    float: none;
+    display: table-cell;
+    vertical-align: top;
+}
+
+.learn-more #head h1 {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+
+.learn-more h3 {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+
+.learn-more p {
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
+
+.learn-more img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.learn-more #skills {
+    background-color: #00539c;
+}
+
+.learn-more #leadership {
+    background-color: #006ecf;
+}
+
+.learn-more #experience {
+    background-color: #0289ff;
+}
+
+.learn-more #networking {
+    background-color: #36a1ff;
+}
+
+/* Get Involved */
+.get-involved {
+    width: 100%;
+    background-color: #FFFFFF;
+    padding: 50px 100px;
+}
+
+.get-involved p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px; 
+    color: #000;
+    text-align: center;
+}
+
+.get-involved h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px; 
+    color: #00539B;
+    text-align: center;
+}
+
+/* Leadership */
+.board {
+    padding: 30px;
+    margin-bottom: 40px;
+      /* display: table; */
+    text-align: center;
+}
+.board h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #fff;
+     text-align: center;
+}
+
+.board h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+/* Leadership - Card */
+/* .flip {
+  -webkit-perspective: 800;
+  -ms-perspective: 800;
+  -moz-perspective: 800;
+  -o-perspective: 800;
+   width: 250px;
+   height: 250px;
+   position: relative;
+   margin: 50px auto;
+  
+     display: table-row;
+}
+.flip .card.flipped {
+  transform:rotatey(-180deg);
+  -ms-transform:rotatey(-180deg); /* IE 9 */
+  -moz-transform:rotatey(-180deg); /* Firefox */
+  -webkit-transform:rotatey(-180deg); /* Safari and Chrome */
+  -o-transform:rotatey(-180deg); /* Opera */
+}
+.flip .card {
+   width: 100%;
+  height: 100%; 
+  -webkit-transform-style: preserve-3d;
+  -webkit-transition: 0.5s;
+  -moz-transform-style: preserve-3d;
+  -moz-transition: 0.5s;
+  -ms-transform-style: preserve-3d;
+  -ms-transition: 0.5s;
+  -o-transform-style: preserve-3d;
+  -o-transition: 0.5s;
+  transform-style: preserve-3d;
+  transition: 0.5s;
+      display: table-cell;
+}
+.flip .card .face {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 2;
+    word-wrap:break-word;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3em;
+  text-align: center;
+  backface-visibility: hidden;  /* W3C */
+  -webkit-backface-visibility: hidden; /* Safari & Chrome */
+  -moz-backface-visibility: hidden; /* Firefox */
+  -ms-backface-visibility: hidden; /* Internet Explorer */
+  -o-backface-visibility: hidden; /* Opera */
+
+}
+.flip .card .front {
+  position: absolute;
+  z-index: 1;
+  background: #00539B;
+  color: #fff;
+}
+.flip .card .back {
+    background: blue;
+    background: white;
+    color: black;
+    cursor: pointer;
+    
+  transform:rotatey(-180deg);
+  -ms-transform:rotatey(-180deg); /* IE 9 */
+  -moz-transform:rotatey(-180deg); /* Firefox */
+  -webkit-transform:rotatey(-180deg); /* Safari and Chrome */
+  -o-transform:rotatey(-180deg); /* Opera */
+
+} */
+
+
+/* Social Media */
+ #twitter-timeline {
+    width:100%!important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+/* Contact */
+.contact {
+    background-color: #fff;
+    padding: 20px;
+}
+.contact img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+}
+
+.contact ul {
+    list-style-type: none;
+}
+.contact li {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+}
+.contact a {
+    color: #e80008;
+    text-transform: uppercase;
+    border-bottom: 1px dotted;
+}
+
+.contact a:hover,
+.contact a:focus {
+    color: #e80008;
+    text-decoration: none;
+    letter-spacing: 3px;
+}
+
+.contact h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px; 
+    color: #00539B;
+    text-align: center;
+}
+
+.contact p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    color: #000;
+}
+
+#mc_embed_signup{
+    background:#fff;
+    clear:left;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#mc_embed_signup h2{
+    color: #00539B;
+    font-size: 20px;
+}
+
+.footer p {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 15px;
+    color: #aaaaaa
+    
+}
+
+.footer ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+.footer ul li { display: inline; }
